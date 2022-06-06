@@ -68,8 +68,8 @@ class DescriptionPlace extends StatelessWidget {
             star,
             star,
             star,
-            star,
-            star_half],
+            star_half,
+            star_border],
           ),
         ],
     );
@@ -85,6 +85,7 @@ class DescriptionPlace extends StatelessWidget {
           descriptionPlace,
           style : const TextStyle(
             fontSize: 19,
+            fontFamily: "Lato",
             fontWeight: FontWeight.bold,
             color: Color(0xFF56575a)
             ),

@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: new DescriptionPlace("Masaya", 4, descriptionTextPlace),
+      body: new DescriptionPlace("Masaya", 5, descriptionTextPlace),
     );
   }
 }
